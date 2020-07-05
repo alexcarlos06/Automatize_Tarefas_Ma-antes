@@ -21,7 +21,3 @@ if __name__ == '__main__':
     except ValueError:
         print('Não foi digitado um valor do tipo inteiro')
         print('Programa encerrado!')
-
-
-
-
