@@ -1,3 +1,4 @@
+#! python3
 # Programa demonstra Conjectura de Collatz
 
 
@@ -21,3 +22,4 @@ if __name__ == '__main__':
     except ValueError:
         print('Não foi digitado um valor do tipo inteiro')
         print('Programa encerrado!')
+    input('Pressione "ENTER" para sair')
