@@ -8,6 +8,7 @@ import os
 
 if len(sys.argv) < 2:
     print('Usage: python pw.py [account] - copy account password')
+    print(sys.argv)
     sys.exit()
 passwords = {'email': 'teste@teste'}
 
@@ -20,7 +21,8 @@ else:
     print(f'\nNão foi encontrado senha cadastrada para {sys.argv[1]}')
 os.system('PAUSE')
 
+# TODO Testar o programa no novo ambiente virtual
 # TODO Adicionar o comando para inserir novas contas
 # TODO Adicionar criptográfia as senhas e contas salvas
-# TODO Salvar os dados em um arquivo json
+# TODO Salvar os dados em um arquivo shelve
 # TODO Retirar todas as senhas do programa principal e utilizar um arquivo json criptografado
