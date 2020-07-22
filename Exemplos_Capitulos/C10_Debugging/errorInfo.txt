@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:/Users/alexc/Documents/Cursos/Programação/Python/Automatize_Tarefas_Ma-antes/Exemplos_Capitulos/C10_Debugging/errorExample.py", line 13, in <module>
+    spam()
+  File "C:/Users/alexc/Documents/Cursos/Programação/Python/Automatize_Tarefas_Ma-antes/Exemplos_Capitulos/C10_Debugging/errorExample.py", line 5, in spam
+    bacon()
+  File "C:/Users/alexc/Documents/Cursos/Programação/Python/Automatize_Tarefas_Ma-antes/Exemplos_Capitulos/C10_Debugging/errorExample.py", line 9, in bacon
+    raise Exception('This is the error message')
+Exception: This is the error message
